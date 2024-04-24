@@ -1,0 +1,6 @@
+from lib.input import *
+
+def main(nums, pattern):
+    print( nums, pattern )
+
+inputLoop( main, [INTL, INTL])
