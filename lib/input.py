@@ -14,3 +14,7 @@ def inputLoop(callback, inputInfo):
             callback(*data)
         except EOFError:
             break
+
+# will be convert to return statement
+def rprint(*args, **kwargs):
+    print(*args, **kwargs)
